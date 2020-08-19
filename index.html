@@ -1,0 +1,30 @@
+<html>
+    <head><link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    </head>
+    <body>
+      <img src="cow.png" alt="flying cow" width=50px id="flyingCow">
+        <div class="container">
+            <h1 id="message">Player 1 Turn</h1>
+            <div class="players">
+                <div id="player1">
+                    <h1>Score:
+                        <span id="player1Scoreboard">0</span>
+                    </h1>
+                    <div id="player1Dice" class="dice active">-</div>
+                </div>
+                <div id="player2">
+                    <h1>Score:
+                        <span id="player2Scoreboard">0</span>
+                    </h1>
+                    <div id="player2Dice" class="dice">-</div>
+                </div>
+            </div>
+
+            <button id="rollBtn">Roll Dice 🎲</button>
+            <button id="resetBtn">Reset Game 🔁</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
